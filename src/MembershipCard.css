@@ -1,0 +1,54 @@
+.membership-card {
+      background-color: #00704A;
+      color: white;
+      border-radius: 20px; /* Increased border radius for a smoother look */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+      padding: 30px; /* Slightly increased padding for better spacing */
+      text-align: center;
+      width: 320px; /* Slightly wider for better content positioning */
+      margin: 0 auto;
+      margin-top: 100px;
+    }
+    
+    .card-header {
+      font-size: 28px; /* Slightly larger font size for header */
+      margin-bottom: 15px; /* Increased margin for separation */
+    }
+    
+    .card-content {
+      margin-bottom: 25px; /* Increased margin for separation */
+    }
+    
+    .customer-info {
+      border-radius: 20px;
+      text-align: center;
+      margin-top: 30px; /* Slightly increased margin for separation */
+      width: 100%;
+    }
+    
+    .info-item {
+      margin-bottom: 15px; /* Increased margin for separation */
+      font-size: 18px; /* Slightly larger font size for content */
+    }
+    
+    .info-label {
+      font-weight: bold;
+    }
+    
+    .barcode-container {
+      background-color: white;
+      padding: 15px;
+      border-radius: 20px;
+      margin-top: 25px;
+      text-align: center;
+    }
+    
+    .barcode {
+      display: inline-block;
+    }
+    
+    .barcode img {
+      max-width: 80%;
+      height: auto;
+    }
+    

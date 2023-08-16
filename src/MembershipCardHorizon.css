@@ -1,0 +1,54 @@
+.membership-card-horizon {
+  background-color: #00704a;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Spread content horizontally */
+  width: 700px; /* Adjust width for horizontal layout */
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.card-header-horizon {
+  font-size: 28px; /* Slightly larger font size for header */
+  margin-bottom: 15px; /* Increased margin for separation */
+}
+
+.card-content-horizon {
+  text-align: left; /* Align content to the left */
+}
+
+.customer-info-horizon {
+  flex: 1;
+  text-align: left;
+  margin: 0 20px; /* Add space between content and barcode */
+}
+
+.info-item-horizon {
+  margin-bottom: 15px; /* Increased margin for separation */
+  font-size: 18px; /* Slightly larger font size for content */
+}
+
+.info-label-horizon {
+  font-weight: bold;
+}
+
+.barcode-container-horizon {
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.barcode-horizon {
+  display: inline-block;
+}
+
+.barcode-horizon img {
+  max-width: 80%;
+  height: auto;
+}
